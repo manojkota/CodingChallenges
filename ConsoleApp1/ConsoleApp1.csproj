@@ -38,7 +38,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.OddNumberAdditions</StartupObject>
+    <StartupObject>ConsoleApp1.Search.SwapNodes</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BenchmarkDotNet, Version=0.13.1.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4, processorArchitecture=MSIL">
@@ -276,6 +276,12 @@
     <Compile Include="Anagrams.cs" />
     <Compile Include="ArrayManipulationProblem.cs" />
     <Compile Include="ActivityNotifications.cs" />
+    <Compile Include="GreedyAlogorithms\ReverseShuffleMerge.cs" />
+    <Compile Include="GreedyAlogorithms\MaxMin.cs" />
+    <Compile Include="GreedyAlogorithms\GreedyFlorist.cs" />
+    <Compile Include="GreedyAlogorithms\LuckBalance.cs" />
+    <Compile Include="GreedyAlogorithms\MinAbsoluteDiff.cs" />
+    <Compile Include="Heap\RunningMedian.cs" />
     <Compile Include="MaximumToys.cs" />
     <Compile Include="BubbleSort.cs" />
     <Compile Include="CbaTest.cs" />
@@ -290,7 +296,20 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RansomNote.cs" />
+    <Compile Include="Search\MaxSubArraySum.cs" />
+    <Compile Include="Search\MachineMinTime.cs" />
+    <Compile Include="Search\Triplets.cs" />
+    <Compile Include="Search\Pairs.cs" />
+    <Compile Include="Search\SwapNodes.cs" />
+    <Compile Include="Search\WhatFlavour.cs" />
     <Compile Include="ShoppingCart.cs" />
+    <Compile Include="Stacks\BalancedBrackets.cs" />
+    <Compile Include="StringManipulations\CommonChild.cs" />
+    <Compile Include="StringManipulations\SpecialStringAgain.cs" />
+    <Compile Include="StringManipulations\SherlockAndTheValidString.cs" />
+    <Compile Include="StringManipulations\AlteringCharacters.cs" />
+    <Compile Include="StringManipulations\MakingAnagrams.cs" />
+    <Compile Include="Tree\Contacts.cs" />
     <Compile Include="TripletCount.cs" />
     <Compile Include="TwoStrings.cs" />
   </ItemGroup>
@@ -336,6 +355,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\input16.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\swapnodes_expectedoutput.txt" />
+    <Content Include="Data\swapnodes_testcase.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="x64\tesseract.dll">
