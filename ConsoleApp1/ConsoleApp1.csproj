@@ -272,37 +272,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CountInversions.cs" />
-    <Compile Include="Anagrams.cs" />
-    <Compile Include="ArrayManipulationProblem.cs" />
-    <Compile Include="ActivityNotifications.cs" />
+    <Compile Include="Sort\CountInversions.cs" />
+    <Compile Include="StringManipulations\Anagrams.cs" />
+    <Compile Include="Arrays\ArrayManipulationProblem.cs" />
+    <Compile Include="Sort\ActivityNotifications.cs" />
     <Compile Include="GreedyAlogorithms\ReverseShuffleMerge.cs" />
     <Compile Include="GreedyAlogorithms\MaxMin.cs" />
     <Compile Include="GreedyAlogorithms\GreedyFlorist.cs" />
     <Compile Include="GreedyAlogorithms\LuckBalance.cs" />
     <Compile Include="GreedyAlogorithms\MinAbsoluteDiff.cs" />
     <Compile Include="Heap\RunningMedian.cs" />
-    <Compile Include="MaximumToys.cs" />
-    <Compile Include="BubbleSort.cs" />
+    <Compile Include="GreedyAlogorithms\MaximumToys.cs" />
+    <Compile Include="Sort\BubbleSort.cs" />
     <Compile Include="CbaTest.cs" />
     <Compile Include="CbaTest2.cs" />
     <Compile Include="CbaTest3.cs" />
     <Compile Include="DuplicateChecker.cs" />
-    <Compile Include="FrequencyQueries.cs" />
-    <Compile Include="HourGlassProblem.cs" />
-    <Compile Include="MinimumBribeProblem.cs" />
-    <Compile Include="MinSwapsTwo.cs" />
+    <Compile Include="Search\FrequencyQueries.cs" />
+    <Compile Include="Arrays\HourGlassProblem.cs" />
+    <Compile Include="ConstructiveAlgorithms\MinimumBribeProblem.cs" />
+    <Compile Include="General\MinSwapsTwo.cs" />
     <Compile Include="OddNumberAdditions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RansomNote.cs" />
+    <Compile Include="Hashtable\RansomNote.cs" />
     <Compile Include="Search\MaxSubArraySum.cs" />
     <Compile Include="Search\MachineMinTime.cs" />
     <Compile Include="Search\Triplets.cs" />
     <Compile Include="Search\Pairs.cs" />
     <Compile Include="Search\SwapNodes.cs" />
     <Compile Include="Search\WhatFlavour.cs" />
-    <Compile Include="ShoppingCart.cs" />
     <Compile Include="Stacks\BalancedBrackets.cs" />
     <Compile Include="StringManipulations\CommonChild.cs" />
     <Compile Include="StringManipulations\SpecialStringAgain.cs" />
@@ -310,12 +309,42 @@
     <Compile Include="StringManipulations\AlteringCharacters.cs" />
     <Compile Include="StringManipulations\MakingAnagrams.cs" />
     <Compile Include="Tree\Contacts.cs" />
-    <Compile Include="TripletCount.cs" />
-    <Compile Include="TwoStrings.cs" />
+    <Compile Include="General\TripletCount.cs" />
+    <Compile Include="StringManipulations\TwoStrings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Arrays\Array Manipulation _ HackerRank.pdf" />
+    <None Include="Arrays\Hourglass2D Array - DS _ HackerRank.pdf" />
+    <None Include="ConstructiveAlgorithms\MinimumBribe_New Year Chaos _ HackerRank.pdf" />
+    <None Include="General\Count Triplets _ HackerRank.pdf" />
+    <None Include="General\Minimum Swaps 2 _ HackerRank.pdf" />
+    <None Include="GreedyAlogorithms\Greedy Florist _ HackerRank.pdf" />
+    <None Include="GreedyAlogorithms\Luck Balance _ HackerRank.pdf" />
+    <None Include="GreedyAlogorithms\Mark and Toys _ HackerRank.pdf" />
+    <None Include="GreedyAlogorithms\Max Min _ HackerRank.pdf" />
+    <None Include="GreedyAlogorithms\Minimum Absolute Difference in an Array _ HackerRank.pdf" />
+    <None Include="GreedyAlogorithms\Reverse Shuffle Merge _ HackerRank.pdf" />
+    <None Include="Hashtable\Hash Tables_ Ransom Note _ HackerRank.pdf" />
+    <None Include="Heap\Find the Running Median _ HackerRank.pdf" />
     <None Include="packages.config" />
+    <None Include="Search\Frequency Queries _ HackerRank.pdf" />
+    <None Include="Search\WhatFlavour_ HackerRank.pdf" />
+    <None Include="Search\Maximum Subarray Sum _ HackerRank.pdf" />
+    <None Include="Search\Minimum Time Required _ HackerRank.pdf" />
+    <None Include="Search\Pairs _ HackerRank.pdf" />
+    <None Include="Search\Swap Nodes [Algo] _ HackerRank.pdf" />
+    <None Include="Sort\Fraudulent Activity Notifications _ HackerRank.pdf" />
+    <None Include="Sort\Merge Sort_ Counting Inversions _ HackerRank.pdf" />
+    <None Include="Sort\Sorting_ Bubble Sort _ HackerRank.pdf" />
+    <None Include="Stacks\Balanced Brackets _ HackerRank.pdf" />
+    <None Include="StringManipulations\Alternating Characters _ HackerRank.pdf" />
+    <None Include="StringManipulations\Common Child _ HackerRank.pdf" />
+    <None Include="StringManipulations\Sherlock and Anagrams _ HackerRank.pdf" />
+    <None Include="StringManipulations\Sherlock and the Valid String _ HackerRank.pdf" />
+    <None Include="StringManipulations\Special String Again _ HackerRank.pdf" />
+    <None Include="StringManipulations\Strings_ Making Anagrams _ HackerRank.pdf" />
+    <None Include="StringManipulations\Two Strings _ HackerRank.pdf" />
     <None Include="tessdata\configs\config.cfg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -352,6 +381,7 @@
     <None Include="tessdata\pdf.ttx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Tree\Contacts _ HackerRank.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\input16.txt">

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29503.13
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C088C67E-2621-4D4B-9CFE-ABC195CDE77F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleCodeChallenge", "GoogleCodeChallenge\GoogleCodeChallenge.csproj", "{B83054EF-6840-4C8E-A1B5-2B468158D10C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{FFAF0DD0-6FB1-4358-9E64-EBAC2422D6B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B83054EF-6840-4C8E-A1B5-2B468158D10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B83054EF-6840-4C8E-A1B5-2B468158D10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B83054EF-6840-4C8E-A1B5-2B468158D10C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAF0DD0-6FB1-4358-9E64-EBAC2422D6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAF0DD0-6FB1-4358-9E64-EBAC2422D6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAF0DD0-6FB1-4358-9E64-EBAC2422D6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAF0DD0-6FB1-4358-9E64-EBAC2422D6B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
