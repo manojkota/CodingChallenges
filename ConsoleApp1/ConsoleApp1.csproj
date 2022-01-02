@@ -38,7 +38,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Search.SwapNodes</StartupObject>
+    <StartupObject>ConsoleApp1.DynamicProgramming.Candies</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BenchmarkDotNet, Version=0.13.1.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4, processorArchitecture=MSIL">
@@ -272,7 +272,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Amazon\PythogorianTriplet.cs" />
+    <Compile Include="DynamicProgramming\Abbreviation.cs" />
+    <Compile Include="DynamicProgramming\Candies.cs" />
+    <Compile Include="DynamicProgramming\MaxArraySum.cs" />
+    <Compile Include="Search\MakingCandies.cs" />
     <Compile Include="Sort\CountInversions.cs" />
+    <Compile Include="Sort\FindKLargest.cs" />
     <Compile Include="StringManipulations\Anagrams.cs" />
     <Compile Include="Arrays\ArrayManipulationProblem.cs" />
     <Compile Include="Sort\ActivityNotifications.cs" />
@@ -317,6 +323,9 @@
     <None Include="Arrays\Array Manipulation _ HackerRank.pdf" />
     <None Include="Arrays\Hourglass2D Array - DS _ HackerRank.pdf" />
     <None Include="ConstructiveAlgorithms\MinimumBribe_New Year Chaos _ HackerRank.pdf" />
+    <None Include="DynamicProgramming\Abbreviation _ HackerRank.pdf" />
+    <None Include="DynamicProgramming\Candies _ HackerRank.pdf" />
+    <None Include="DynamicProgramming\Max Array Sum _ HackerRank.pdf" />
     <None Include="General\Count Triplets _ HackerRank.pdf" />
     <None Include="General\Minimum Swaps 2 _ HackerRank.pdf" />
     <None Include="GreedyAlogorithms\Greedy Florist _ HackerRank.pdf" />
@@ -329,6 +338,7 @@
     <None Include="Heap\Find the Running Median _ HackerRank.pdf" />
     <None Include="packages.config" />
     <None Include="Search\Frequency Queries _ HackerRank.pdf" />
+    <None Include="Search\Making Candies _ HackerRank.pdf" />
     <None Include="Search\WhatFlavour_ HackerRank.pdf" />
     <None Include="Search\Maximum Subarray Sum _ HackerRank.pdf" />
     <None Include="Search\Minimum Time Required _ HackerRank.pdf" />
