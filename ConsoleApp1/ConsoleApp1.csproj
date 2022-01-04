@@ -38,7 +38,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.DynamicProgramming.Candies</StartupObject>
+    <StartupObject>ConsoleApp1._2DArray.Minesweeper_Expanding</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BenchmarkDotNet, Version=0.13.1.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4, processorArchitecture=MSIL">
@@ -272,6 +272,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2DArray\MatrixRotation.cs" />
+    <Compile Include="2DArray\Minesweeper_AssignNumbers.cs" />
+    <Compile Include="2DArray\Minesweeper_Expanding.cs" />
     <Compile Include="Amazon\PythogorianTriplet.cs" />
     <Compile Include="DynamicProgramming\Abbreviation.cs" />
     <Compile Include="DynamicProgramming\Candies.cs" />
@@ -279,6 +282,8 @@
     <Compile Include="Search\MakingCandies.cs" />
     <Compile Include="Sort\CountInversions.cs" />
     <Compile Include="Sort\FindKLargest.cs" />
+    <Compile Include="StacksnQueues\ATaleOfTwoStacks.cs" />
+    <Compile Include="StacksnQueues\LargestRectangle.cs" />
     <Compile Include="StringManipulations\Anagrams.cs" />
     <Compile Include="Arrays\ArrayManipulationProblem.cs" />
     <Compile Include="Sort\ActivityNotifications.cs" />
@@ -347,6 +352,8 @@
     <None Include="Sort\Fraudulent Activity Notifications _ HackerRank.pdf" />
     <None Include="Sort\Merge Sort_ Counting Inversions _ HackerRank.pdf" />
     <None Include="Sort\Sorting_ Bubble Sort _ HackerRank.pdf" />
+    <None Include="StacksnQueues\Largest Rectangle _ HackerRank.pdf" />
+    <None Include="StacksnQueues\Queues_ A Tale of Two Stacks _ HackerRank.pdf" />
     <None Include="Stacks\Balanced Brackets _ HackerRank.pdf" />
     <None Include="StringManipulations\Alternating Characters _ HackerRank.pdf" />
     <None Include="StringManipulations\Common Child _ HackerRank.pdf" />
