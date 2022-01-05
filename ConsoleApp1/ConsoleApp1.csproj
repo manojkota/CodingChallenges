@@ -38,7 +38,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1._2DArray.Minesweeper_Expanding</StartupObject>
+    <StartupObject>ConsoleApp1.StringManipulations.OnwEditAway</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BenchmarkDotNet, Version=0.13.1.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4, processorArchitecture=MSIL">
@@ -276,9 +276,13 @@
     <Compile Include="2DArray\Minesweeper_AssignNumbers.cs" />
     <Compile Include="2DArray\Minesweeper_Expanding.cs" />
     <Compile Include="Amazon\PythogorianTriplet.cs" />
+    <Compile Include="Arrays\CommonElementsInTwoArrays.cs" />
+    <Compile Include="Arrays\MostFrequencyOccuringItemInArray.cs" />
+    <Compile Include="Arrays\OneArrayARotationOfAnother.cs" />
     <Compile Include="DynamicProgramming\Abbreviation.cs" />
     <Compile Include="DynamicProgramming\Candies.cs" />
     <Compile Include="DynamicProgramming\MaxArraySum.cs" />
+    <Compile Include="LinkedLists\NthElementInTheLinkedList.cs" />
     <Compile Include="Search\MakingCandies.cs" />
     <Compile Include="Sort\CountInversions.cs" />
     <Compile Include="Sort\FindKLargest.cs" />
@@ -315,6 +319,7 @@
     <Compile Include="Search\WhatFlavour.cs" />
     <Compile Include="Stacks\BalancedBrackets.cs" />
     <Compile Include="StringManipulations\CommonChild.cs" />
+    <Compile Include="StringManipulations\OnwEditAway.cs" />
     <Compile Include="StringManipulations\SpecialStringAgain.cs" />
     <Compile Include="StringManipulations\SherlockAndTheValidString.cs" />
     <Compile Include="StringManipulations\AlteringCharacters.cs" />
@@ -322,6 +327,8 @@
     <Compile Include="Tree\Contacts.cs" />
     <Compile Include="General\TripletCount.cs" />
     <Compile Include="StringManipulations\TwoStrings.cs" />
+    <Compile Include="Tree\IsBinarySearchTree.cs" />
+    <Compile Include="Tree\LowestCommonAncestor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
