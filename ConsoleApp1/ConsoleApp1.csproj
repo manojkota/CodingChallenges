@@ -38,7 +38,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.StringManipulations.OnwEditAway</StartupObject>
+    <StartupObject>ConsoleApp1.StacksnQueues.PoisonousPlants</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BenchmarkDotNet, Version=0.13.1.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4, processorArchitecture=MSIL">
@@ -287,7 +287,10 @@
     <Compile Include="Sort\CountInversions.cs" />
     <Compile Include="Sort\FindKLargest.cs" />
     <Compile Include="StacksnQueues\ATaleOfTwoStacks.cs" />
+    <Compile Include="StacksnQueues\CastleOnTheGrid.cs" />
     <Compile Include="StacksnQueues\LargestRectangle.cs" />
+    <Compile Include="StacksnQueues\MinMaxRiddle.cs" />
+    <Compile Include="StacksnQueues\PoisonousPlants.cs" />
     <Compile Include="StringManipulations\Anagrams.cs" />
     <Compile Include="Arrays\ArrayManipulationProblem.cs" />
     <Compile Include="Sort\ActivityNotifications.cs" />
