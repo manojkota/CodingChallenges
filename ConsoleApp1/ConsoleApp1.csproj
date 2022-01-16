@@ -38,7 +38,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.StringManipulations.GroupAnagrams</StartupObject>
+    <StartupObject>ConsoleApp1.Graphs.CourseSchedule</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BenchmarkDotNet, Version=0.13.1.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4, processorArchitecture=MSIL">
@@ -273,8 +273,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2DArray\MatrixRotation.cs" />
+    <Compile Include="2DArray\MergeIntervals.cs" />
     <Compile Include="2DArray\Minesweeper_AssignNumbers.cs" />
     <Compile Include="2DArray\Minesweeper_Expanding.cs" />
+    <Compile Include="2DArray\NumberOfIslands.cs" />
     <Compile Include="Amazon\PythogorianTriplet.cs" />
     <Compile Include="Arrays\CommonElementsInTwoArrays.cs" />
     <Compile Include="Arrays\MostFrequencyOccuringItemInArray.cs" />
@@ -282,9 +284,11 @@
     <Compile Include="DynamicProgramming\Abbreviation.cs" />
     <Compile Include="DynamicProgramming\Candies.cs" />
     <Compile Include="DynamicProgramming\MaxArraySum.cs" />
+    <Compile Include="Graphs\CourseSchedule.cs" />
     <Compile Include="GreedyAlogorithms\RomanToInteger.cs" />
     <Compile Include="GreedyAlogorithms\IntegerToRoman.cs" />
     <Compile Include="LinkedLists\AddTwoNumbers.cs" />
+    <Compile Include="LinkedLists\LeastRecentlyUsedCache.cs" />
     <Compile Include="LinkedLists\NthElementInTheLinkedList.cs" />
     <Compile Include="Search\MakingCandies.cs" />
     <Compile Include="Sort\CountInversions.cs" />
@@ -332,6 +336,7 @@
     <Compile Include="StringManipulations\SherlockAndTheValidString.cs" />
     <Compile Include="StringManipulations\AlteringCharacters.cs" />
     <Compile Include="StringManipulations\MakingAnagrams.cs" />
+    <Compile Include="2DArray\WordSearch.cs" />
     <Compile Include="Tree\BalancedForest.cs" />
     <Compile Include="Tree\Contacts.cs" />
     <Compile Include="General\TripletCount.cs" />
@@ -340,6 +345,9 @@
     <Compile Include="Tree\LowestCommonAncestor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="2DArray\Merge Intervals - LeetCode.pdf" />
+    <None Include="2DArray\Number of Islands - LeetCode.pdf" />
+    <None Include="2DArray\Word Search - LeetCode.pdf" />
     <None Include="App.config" />
     <None Include="Arrays\Array Manipulation _ HackerRank.pdf" />
     <None Include="Arrays\Hourglass2D Array - DS _ HackerRank.pdf" />
@@ -349,6 +357,7 @@
     <None Include="DynamicProgramming\Max Array Sum _ HackerRank.pdf" />
     <None Include="General\Count Triplets _ HackerRank.pdf" />
     <None Include="General\Minimum Swaps 2 _ HackerRank.pdf" />
+    <None Include="Graphs\Course Schedule - LeetCode.pdf" />
     <None Include="GreedyAlogorithms\Greedy Florist _ HackerRank.pdf" />
     <None Include="GreedyAlogorithms\Integer to Roman - LeetCode.pdf" />
     <None Include="GreedyAlogorithms\Luck Balance _ HackerRank.pdf" />
@@ -360,6 +369,7 @@
     <None Include="Hashtable\Hash Tables_ Ransom Note _ HackerRank.pdf" />
     <None Include="Heap\Find the Running Median _ HackerRank.pdf" />
     <None Include="LinkedLists\Add Two Numbers - LeetCode.pdf" />
+    <None Include="LinkedLists\LRU Cache - LeetCode.pdf" />
     <None Include="packages.config" />
     <None Include="Search\Frequency Queries _ HackerRank.pdf" />
     <None Include="Search\Making Candies _ HackerRank.pdf" />
