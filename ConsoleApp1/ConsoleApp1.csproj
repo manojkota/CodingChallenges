@@ -38,7 +38,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Graphs.CourseSchedule</StartupObject>
+    <StartupObject>ConsoleApp1.Heap.MeetingRoomsII</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BenchmarkDotNet, Version=0.13.1.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4, processorArchitecture=MSIL">
@@ -277,6 +277,7 @@
     <Compile Include="2DArray\Minesweeper_AssignNumbers.cs" />
     <Compile Include="2DArray\Minesweeper_Expanding.cs" />
     <Compile Include="2DArray\NumberOfIslands.cs" />
+    <Compile Include="2DArray\TicTacToeProblem.cs" />
     <Compile Include="Amazon\PythogorianTriplet.cs" />
     <Compile Include="Arrays\CommonElementsInTwoArrays.cs" />
     <Compile Include="Arrays\MostFrequencyOccuringItemInArray.cs" />
@@ -284,9 +285,11 @@
     <Compile Include="DynamicProgramming\Abbreviation.cs" />
     <Compile Include="DynamicProgramming\Candies.cs" />
     <Compile Include="DynamicProgramming\MaxArraySum.cs" />
+    <Compile Include="Graphs\CourseScheduleII.cs" />
     <Compile Include="Graphs\CourseSchedule.cs" />
     <Compile Include="GreedyAlogorithms\RomanToInteger.cs" />
     <Compile Include="GreedyAlogorithms\IntegerToRoman.cs" />
+    <Compile Include="Heap\MeetingRoomsII.cs" />
     <Compile Include="LinkedLists\AddTwoNumbers.cs" />
     <Compile Include="LinkedLists\LeastRecentlyUsedCache.cs" />
     <Compile Include="LinkedLists\NthElementInTheLinkedList.cs" />
@@ -345,6 +348,7 @@
     <Compile Include="Tree\LowestCommonAncestor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="2DArray\Design Tic-Tac-Toe - LeetCode.pdf" />
     <None Include="2DArray\Merge Intervals - LeetCode.pdf" />
     <None Include="2DArray\Number of Islands - LeetCode.pdf" />
     <None Include="2DArray\Word Search - LeetCode.pdf" />
@@ -358,6 +362,7 @@
     <None Include="General\Count Triplets _ HackerRank.pdf" />
     <None Include="General\Minimum Swaps 2 _ HackerRank.pdf" />
     <None Include="Graphs\Course Schedule - LeetCode.pdf" />
+    <None Include="Graphs\Course Schedule II - LeetCode.pdf" />
     <None Include="GreedyAlogorithms\Greedy Florist _ HackerRank.pdf" />
     <None Include="GreedyAlogorithms\Integer to Roman - LeetCode.pdf" />
     <None Include="GreedyAlogorithms\Luck Balance _ HackerRank.pdf" />
@@ -368,6 +373,7 @@
     <None Include="GreedyAlogorithms\Roman to Integer - LeetCode.pdf" />
     <None Include="Hashtable\Hash Tables_ Ransom Note _ HackerRank.pdf" />
     <None Include="Heap\Find the Running Median _ HackerRank.pdf" />
+    <None Include="Heap\Meeting Rooms II - LeetCode.pdf" />
     <None Include="LinkedLists\Add Two Numbers - LeetCode.pdf" />
     <None Include="LinkedLists\LRU Cache - LeetCode.pdf" />
     <None Include="packages.config" />
