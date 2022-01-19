@@ -38,7 +38,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Heap.MeetingRoomsII</StartupObject>
+    <StartupObject>ConsoleApp1.Arrays.RangeAddition</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BenchmarkDotNet, Version=0.13.1.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4, processorArchitecture=MSIL">
@@ -272,16 +272,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2DArray\KClosestPointsToOrigin.cs" />
     <Compile Include="2DArray\MatrixRotation.cs" />
     <Compile Include="2DArray\MergeIntervals.cs" />
     <Compile Include="2DArray\Minesweeper_AssignNumbers.cs" />
     <Compile Include="2DArray\Minesweeper_Expanding.cs" />
     <Compile Include="2DArray\NumberOfIslands.cs" />
+    <Compile Include="2DArray\SnakeAndLadders.cs" />
     <Compile Include="2DArray\TicTacToeProblem.cs" />
     <Compile Include="Amazon\PythogorianTriplet.cs" />
+    <Compile Include="Arrays\AsteroidCollision.cs" />
     <Compile Include="Arrays\CommonElementsInTwoArrays.cs" />
     <Compile Include="Arrays\MostFrequencyOccuringItemInArray.cs" />
     <Compile Include="Arrays\OneArrayARotationOfAnother.cs" />
+    <Compile Include="Arrays\RangeAddition.cs" />
+    <Compile Include="Arrays\Sum_of_Subarray_Minimums.cs" />
     <Compile Include="DynamicProgramming\Abbreviation.cs" />
     <Compile Include="DynamicProgramming\Candies.cs" />
     <Compile Include="DynamicProgramming\MaxArraySum.cs" />
@@ -334,6 +339,7 @@
     <Compile Include="StringManipulations\CommonChild.cs" />
     <Compile Include="StringManipulations\GroupAnagrams.cs" />
     <Compile Include="StringManipulations\LengthOfLongestSubstring.cs" />
+    <Compile Include="StringManipulations\MinimumFlips.cs" />
     <Compile Include="StringManipulations\OnwEditAway.cs" />
     <Compile Include="StringManipulations\SpecialStringAgain.cs" />
     <Compile Include="StringManipulations\SherlockAndTheValidString.cs" />
@@ -344,17 +350,23 @@
     <Compile Include="Tree\Contacts.cs" />
     <Compile Include="General\TripletCount.cs" />
     <Compile Include="StringManipulations\TwoStrings.cs" />
+    <Compile Include="Tree\DistanceK.cs" />
     <Compile Include="Tree\IsBinarySearchTree.cs" />
     <Compile Include="Tree\LowestCommonAncestor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="2DArray\Design Tic-Tac-Toe - LeetCode.pdf" />
+    <None Include="2DArray\K Closest Points to Origin - LeetCode.pdf" />
+    <None Include="2DArray\K Closest Points to Origin - Solution - LeetCode.pdf" />
     <None Include="2DArray\Merge Intervals - LeetCode.pdf" />
     <None Include="2DArray\Number of Islands - LeetCode.pdf" />
+    <None Include="2DArray\Snakes and Ladders - LeetCode.pdf" />
     <None Include="2DArray\Word Search - LeetCode.pdf" />
     <None Include="App.config" />
     <None Include="Arrays\Array Manipulation _ HackerRank.pdf" />
+    <None Include="Arrays\Asteroid Collision - LeetCode.pdf" />
     <None Include="Arrays\Hourglass2D Array - DS _ HackerRank.pdf" />
+    <None Include="Arrays\Range Addition - LeetCode.pdf" />
     <None Include="ConstructiveAlgorithms\MinimumBribe_New Year Chaos _ HackerRank.pdf" />
     <None Include="DynamicProgramming\Abbreviation _ HackerRank.pdf" />
     <None Include="DynamicProgramming\Candies _ HackerRank.pdf" />
@@ -437,6 +449,7 @@
     <None Include="tessdata\pdf.ttx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Tree\All Nodes Distance K in Binary Tree - LeetCode.pdf" />
     <None Include="Tree\Contacts _ HackerRank.pdf" />
   </ItemGroup>
   <ItemGroup>
