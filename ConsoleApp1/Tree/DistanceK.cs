@@ -14,7 +14,7 @@ namespace ConsoleApp1.Tree
             Console.ReadLine();
         }
 
-        Dictionary<TreeNode, TreeNode> parent = new Dictionary<TreeNode, TreeNode>();
+        static Dictionary<TreeNode, TreeNode> parent = new Dictionary<TreeNode, TreeNode>();
 
         static IList<int> Solve(TreeNode root, TreeNode target, int k)
         {

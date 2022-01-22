@@ -15,6 +15,21 @@
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -278,11 +293,13 @@
     <Compile Include="2DArray\Minesweeper_AssignNumbers.cs" />
     <Compile Include="2DArray\Minesweeper_Expanding.cs" />
     <Compile Include="2DArray\NumberOfIslands.cs" />
+    <Compile Include="2DArray\RottingOranges.cs" />
     <Compile Include="2DArray\SnakeAndLadders.cs" />
     <Compile Include="2DArray\TicTacToeProblem.cs" />
     <Compile Include="Amazon\PythogorianTriplet.cs" />
     <Compile Include="Arrays\AsteroidCollision.cs" />
     <Compile Include="Arrays\CommonElementsInTwoArrays.cs" />
+    <Compile Include="Arrays\MinSwaps.cs" />
     <Compile Include="Arrays\MostFrequencyOccuringItemInArray.cs" />
     <Compile Include="Arrays\OneArrayARotationOfAnother.cs" />
     <Compile Include="Arrays\RangeAddition.cs" />
@@ -292,8 +309,10 @@
     <Compile Include="DynamicProgramming\MaxArraySum.cs" />
     <Compile Include="Graphs\CourseScheduleII.cs" />
     <Compile Include="Graphs\CourseSchedule.cs" />
+    <Compile Include="Graphs\MinimumSpanningTree.cs" />
     <Compile Include="GreedyAlogorithms\RomanToInteger.cs" />
     <Compile Include="GreedyAlogorithms\IntegerToRoman.cs" />
+    <Compile Include="Hashtable\Analyze_User_Website_Visit_Pattern.cs" />
     <Compile Include="Heap\MeetingRoomsII.cs" />
     <Compile Include="LinkedLists\AddTwoNumbers.cs" />
     <Compile Include="LinkedLists\LeastRecentlyUsedCache.cs" />
@@ -360,13 +379,16 @@
     <None Include="2DArray\K Closest Points to Origin - Solution - LeetCode.pdf" />
     <None Include="2DArray\Merge Intervals - LeetCode.pdf" />
     <None Include="2DArray\Number of Islands - LeetCode.pdf" />
+    <None Include="2DArray\Rotting Oranges - LeetCode.pdf" />
     <None Include="2DArray\Snakes and Ladders - LeetCode.pdf" />
     <None Include="2DArray\Word Search - LeetCode.pdf" />
     <None Include="App.config" />
     <None Include="Arrays\Array Manipulation _ HackerRank.pdf" />
     <None Include="Arrays\Asteroid Collision - LeetCode.pdf" />
     <None Include="Arrays\Hourglass2D Array - DS _ HackerRank.pdf" />
+    <None Include="Arrays\Minimum Swaps to Group All 1%27s Together - LeetCode.pdf" />
     <None Include="Arrays\Range Addition - LeetCode.pdf" />
+    <None Include="Arrays\Sum of Subarray Minimums - LeetCode.pdf" />
     <None Include="ConstructiveAlgorithms\MinimumBribe_New Year Chaos _ HackerRank.pdf" />
     <None Include="DynamicProgramming\Abbreviation _ HackerRank.pdf" />
     <None Include="DynamicProgramming\Candies _ HackerRank.pdf" />
@@ -375,6 +397,7 @@
     <None Include="General\Minimum Swaps 2 _ HackerRank.pdf" />
     <None Include="Graphs\Course Schedule - LeetCode.pdf" />
     <None Include="Graphs\Course Schedule II - LeetCode.pdf" />
+    <None Include="Graphs\Minimum Spanning Tree - Connecting Cities With Minimum Cost - LeetCode.pdf" />
     <None Include="GreedyAlogorithms\Greedy Florist _ HackerRank.pdf" />
     <None Include="GreedyAlogorithms\Integer to Roman - LeetCode.pdf" />
     <None Include="GreedyAlogorithms\Luck Balance _ HackerRank.pdf" />
@@ -470,6 +493,18 @@
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.1\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.1\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
