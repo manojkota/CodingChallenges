@@ -53,7 +53,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Arrays.RangeAddition</StartupObject>
+    <StartupObject>ConsoleApp1.Tree.Contacts</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BenchmarkDotNet, Version=0.13.1.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4, processorArchitecture=MSIL">
@@ -294,26 +294,34 @@
     <Compile Include="2DArray\Minesweeper_Expanding.cs" />
     <Compile Include="2DArray\NumberOfIslands.cs" />
     <Compile Include="2DArray\RottingOranges.cs" />
+    <Compile Include="2DArray\Shortest_Path_to_Get_Food.cs" />
     <Compile Include="2DArray\SnakeAndLadders.cs" />
     <Compile Include="2DArray\TicTacToeProblem.cs" />
     <Compile Include="Amazon\PythogorianTriplet.cs" />
     <Compile Include="Arrays\AsteroidCollision.cs" />
     <Compile Include="Arrays\CommonElementsInTwoArrays.cs" />
+    <Compile Include="Arrays\FindLeastNumOfUniqueInts.cs" />
     <Compile Include="Arrays\MinSwaps.cs" />
     <Compile Include="Arrays\MostFrequencyOccuringItemInArray.cs" />
     <Compile Include="Arrays\OneArrayARotationOfAnother.cs" />
     <Compile Include="Arrays\RangeAddition.cs" />
+    <Compile Include="Arrays\SumOfSubArrayEqualsK.cs" />
     <Compile Include="Arrays\Sum_of_Subarray_Minimums.cs" />
     <Compile Include="DynamicProgramming\Abbreviation.cs" />
     <Compile Include="DynamicProgramming\Candies.cs" />
     <Compile Include="DynamicProgramming\MaxArraySum.cs" />
+    <Compile Include="General\KthFactorOfN.cs" />
     <Compile Include="Graphs\CourseScheduleII.cs" />
     <Compile Include="Graphs\CourseSchedule.cs" />
     <Compile Include="Graphs\MinimumSpanningTree.cs" />
+    <Compile Include="GreedyAlogorithms\Maximum_Number_of_Events_That_Can _Be_Attended.cs" />
     <Compile Include="GreedyAlogorithms\RomanToInteger.cs" />
     <Compile Include="GreedyAlogorithms\IntegerToRoman.cs" />
+    <Compile Include="GreedyAlogorithms\Sell_Diminishing_Valued_Colored_Balls.cs" />
     <Compile Include="Hashtable\Analyze_User_Website_Visit_Pattern.cs" />
+    <Compile Include="Heap\Heap.cs" />
     <Compile Include="Heap\MeetingRoomsII.cs" />
+    <Compile Include="Heap\Minimum_Cost_to_Connect_Sticks.cs" />
     <Compile Include="LinkedLists\AddTwoNumbers.cs" />
     <Compile Include="LinkedLists\LeastRecentlyUsedCache.cs" />
     <Compile Include="LinkedLists\NthElementInTheLinkedList.cs" />
@@ -360,6 +368,7 @@
     <Compile Include="StringManipulations\LengthOfLongestSubstring.cs" />
     <Compile Include="StringManipulations\MinimumFlips.cs" />
     <Compile Include="StringManipulations\OnwEditAway.cs" />
+    <Compile Include="StringManipulations\Search_Suggestions_System.cs" />
     <Compile Include="StringManipulations\SpecialStringAgain.cs" />
     <Compile Include="StringManipulations\SherlockAndTheValidString.cs" />
     <Compile Include="StringManipulations\AlteringCharacters.cs" />
@@ -370,6 +379,7 @@
     <Compile Include="General\TripletCount.cs" />
     <Compile Include="StringManipulations\TwoStrings.cs" />
     <Compile Include="Tree\DistanceK.cs" />
+    <Compile Include="Tree\ExpressionTree.cs" />
     <Compile Include="Tree\IsBinarySearchTree.cs" />
     <Compile Include="Tree\LowestCommonAncestor.cs" />
   </ItemGroup>
@@ -385,7 +395,9 @@
     <None Include="App.config" />
     <None Include="Arrays\Array Manipulation _ HackerRank.pdf" />
     <None Include="Arrays\Asteroid Collision - LeetCode.pdf" />
+    <None Include="Arrays\Count Number of Nice Subarrays - LeetCode.pdf" />
     <None Include="Arrays\Hourglass2D Array - DS _ HackerRank.pdf" />
+    <None Include="Arrays\Least Number of Unique Integers after K Removals - LeetCode.pdf" />
     <None Include="Arrays\Minimum Swaps to Group All 1%27s Together - LeetCode.pdf" />
     <None Include="Arrays\Range Addition - LeetCode.pdf" />
     <None Include="Arrays\Sum of Subarray Minimums - LeetCode.pdf" />
@@ -395,6 +407,7 @@
     <None Include="DynamicProgramming\Max Array Sum _ HackerRank.pdf" />
     <None Include="General\Count Triplets _ HackerRank.pdf" />
     <None Include="General\Minimum Swaps 2 _ HackerRank.pdf" />
+    <None Include="General\The kth Factor of n - LeetCode.pdf" />
     <None Include="Graphs\Course Schedule - LeetCode.pdf" />
     <None Include="Graphs\Course Schedule II - LeetCode.pdf" />
     <None Include="Graphs\Minimum Spanning Tree - Connecting Cities With Minimum Cost - LeetCode.pdf" />
@@ -403,12 +416,16 @@
     <None Include="GreedyAlogorithms\Luck Balance _ HackerRank.pdf" />
     <None Include="GreedyAlogorithms\Mark and Toys _ HackerRank.pdf" />
     <None Include="GreedyAlogorithms\Max Min _ HackerRank.pdf" />
+    <None Include="GreedyAlogorithms\Maximum Number of Events That Can Be Attended - LeetCode.pdf" />
     <None Include="GreedyAlogorithms\Minimum Absolute Difference in an Array _ HackerRank.pdf" />
     <None Include="GreedyAlogorithms\Reverse Shuffle Merge _ HackerRank.pdf" />
     <None Include="GreedyAlogorithms\Roman to Integer - LeetCode.pdf" />
+    <None Include="GreedyAlogorithms\Sell Diminishing-Valued Colored Balls - LeetCode.pdf" />
+    <None Include="Hashtable\Analyze User Website Visit Pattern - LeetCode.pdf" />
     <None Include="Hashtable\Hash Tables_ Ransom Note _ HackerRank.pdf" />
     <None Include="Heap\Find the Running Median _ HackerRank.pdf" />
     <None Include="Heap\Meeting Rooms II - LeetCode.pdf" />
+    <None Include="Heap\Minimum Cost to Connect Sticks - LeetCode.pdf" />
     <None Include="LinkedLists\Add Two Numbers - LeetCode.pdf" />
     <None Include="LinkedLists\LRU Cache - LeetCode.pdf" />
     <None Include="packages.config" />
@@ -429,8 +446,10 @@
     <None Include="Stacks\Balanced Brackets _ HackerRank.pdf" />
     <None Include="StringManipulations\Alternating Characters _ HackerRank.pdf" />
     <None Include="StringManipulations\Common Child _ HackerRank.pdf" />
+    <None Include="StringManipulations\Flip String to Monotone Increasing - LeetCode.pdf" />
     <None Include="StringManipulations\Group Anagrams - LeetCode.pdf" />
     <None Include="StringManipulations\Longest Substring Without Repeating Characters - LeetCode.pdf" />
+    <None Include="StringManipulations\Search Suggestions System - LeetCode.pdf" />
     <None Include="StringManipulations\Sherlock and Anagrams _ HackerRank.pdf" />
     <None Include="StringManipulations\Sherlock and the Valid String _ HackerRank.pdf" />
     <None Include="StringManipulations\Special String Again _ HackerRank.pdf" />
